@@ -1,0 +1,62 @@
+CSS
+/* Reset some default styles and set a base font size and color */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+/* Header styles */
+header {
+    background-color: #728aa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    background-image: url(backgro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+/* Navigation styles */
+nav {
+    background-color: #5b4545;
+    color: #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+table{
+    padding: 20px;
+    row-gap: 10px;
+    width: 50%;
+}
+
+th{
+    color: white;
+}
+td{
+    color: white;
+}
